@@ -13,7 +13,7 @@ public class PatchMethod {
 	@Test
 	public void modifyMethod() {
 		Map<String,Object> payload=new HashMap<>();
-		payload.put("company", "Virtusa");
+		payload.put("company", "CTS");
 		Response response=RestAssured
 				.given()
 				.contentType(ContentType.JSON)
