@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-16T22:29:10 IST" name="Default suite" finished-at="2026-06-16T22:29:13 IST" duration-ms="2477">
+    <groups>
+    </groups>
+    <test started-at="2026-06-16T22:29:10 IST" name="Default test" finished-at="2026-06-16T22:29:13 IST" duration-ms="2477">
+      <class name="com.tests.InvalidGetMethod">
+        <test-method signature="invalidGetTrainee()[pri:0, instance:com.tests.InvalidGetMethod@a1153bc]" started-at="2026-06-16T22:29:10 IST" name="invalidGetTrainee" finished-at="2026-06-16T22:29:13 IST" duration-ms="2404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidGetTrainee -->
+      </class> <!-- com.tests.InvalidGetMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
