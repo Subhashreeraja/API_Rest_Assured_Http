@@ -11,9 +11,9 @@ public class PostMethod {
 	@Test
 	public void post() {
 		Map<String,Object> payload=new HashMap<>();
-		payload.put("name", "Vidhu");
-		payload.put("email", "vidhu123@gmail.com");
-		payload.put("company", "Vinsinfo");
+		payload.put("name", "kowsika");
+		payload.put("email", "kowsika@gmail.com");
+		payload.put("company", "TCS");
 		Response response=RestAssured
 				.given()
 				.contentType(ContentType.JSON)
@@ -23,7 +23,7 @@ public class PostMethod {
 		System.out.println("Data Created:"+response.getStatusCode());
 		response.prettyPrint();
 		Assert.assertEquals(response.getStatusCode(),201);
-		Assert.assertEquals(response.jsonPath().getString("name"),"Vidhu");
+		Assert.assertEquals(response.jsonPath().getString("name"),"kowsika");
 		
 	}
 	

@@ -17,7 +17,7 @@ public class UpdateMethod {
         payload.put("id", "7");
         payload.put("name", "Kaavya");
         payload.put("email", "kaavya@gmail.com");
-        payload.put("company", "Zoho");
+        payload.put("company", "Bosch");
 
         RestAssured
             .given()
