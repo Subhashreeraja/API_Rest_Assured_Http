@@ -19,7 +19,7 @@ public class PatchMethod {
 				.contentType(ContentType.JSON)
 				.body(payload)
 				.when()
-				.patch("http://localhost:3000/trainees/8");
+				.patch("http://localhost:3000/trainees/10");
 		System.out.println("Updated Successfully:"+response.getStatusCode());
 		Assert.assertEquals(response.getStatusCode(),200);
 		Assert.assertEquals(response.jsonPath().getString("name"),"vithya");

@@ -11,9 +11,9 @@ public class PostMethod {
 	@Test
 	public void post() {
 		Map<String,Object> payload=new HashMap<>();
-		payload.put("name", "kowsika");
-		payload.put("email", "kowsika@gmail.com");
-		payload.put("company", "TCS");
+		payload.put("name", "kowsikaa");
+		payload.put("email", "kowsikaa@gmail.com");
+		payload.put("company", "Google");
 		Response response=RestAssured
 				.given()
 				.contentType(ContentType.JSON)
