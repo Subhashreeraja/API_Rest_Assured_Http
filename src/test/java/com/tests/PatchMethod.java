@@ -13,7 +13,7 @@ public class PatchMethod {
 	@Test
 	public void modifyMethod() {
 		Map<String,Object> payload=new HashMap<>();
-		payload.put("company", "CTS");
+		payload.put("company", "CTSS");
 		Response response=RestAssured
 				.given()
 				.contentType(ContentType.JSON)
@@ -22,7 +22,7 @@ public class PatchMethod {
 				.patch("http://localhost:3000/trainees/10");
 		System.out.println("Updated Successfully:"+response.getStatusCode());
 		Assert.assertEquals(response.getStatusCode(),200);
-		Assert.assertEquals(response.jsonPath().getString("name"),"vithya");
+		Assert.assertEquals(response.jsonPath().getString("name"),"Mythili");
 		
 		
 		
