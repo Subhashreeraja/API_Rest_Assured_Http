@@ -15,8 +15,8 @@ public class UpdateMethod {
         Map<String, Object> payload = new HashMap<>();
 
         payload.put("id", "7");
-        payload.put("name", "Kaaaviya");
-        payload.put("email", "kaaaviya@gmail.com");
+        payload.put("name", "Kaviiya");
+        payload.put("email", "kaviiya@gmail.com");
         payload.put("company", "Meta");
 
         RestAssured

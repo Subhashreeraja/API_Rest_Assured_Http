@@ -1,17 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-17T06:59:32 IST" name="Default suite" finished-at="2026-06-17T06:59:34 IST" duration-ms="2171">
+  <suite started-at="2026-06-18T15:40:35 IST" name="Suite" finished-at="2026-06-18T15:40:39 IST" duration-ms="4053">
     <groups>
     </groups>
-    <test started-at="2026-06-17T06:59:32 IST" name="Default test" finished-at="2026-06-17T06:59:34 IST" duration-ms="2171">
+    <test started-at="2026-06-18T15:40:35 IST" name="Test" finished-at="2026-06-18T15:40:39 IST" duration-ms="4053">
+      <class name="com.tests.Getmethod">
+        <test-method signature="getUserTest()[pri:0, instance:com.tests.Getmethod@238d68ff]" started-at="2026-06-18T15:40:38 IST" name="getUserTest" finished-at="2026-06-18T15:40:38 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+      </class> <!-- com.tests.Getmethod -->
+      <class name="com.tests.OptionsMethod">
+        <test-method signature="optionsmethod()[pri:0, instance:com.tests.OptionsMethod@9cb8225]" started-at="2026-06-18T15:40:39 IST" name="optionsmethod" finished-at="2026-06-18T15:40:39 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionsmethod -->
+      </class> <!-- com.tests.OptionsMethod -->
+      <class name="com.tests.PostMethod">
+        <test-method signature="post()[pri:0, instance:com.tests.PostMethod@4e0ae11f]" started-at="2026-06-18T15:40:38 IST" name="post" finished-at="2026-06-18T15:40:38 IST" duration-ms="793" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Kowsikaa] but found [Kowsikaaa]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Kowsikaa] but found [Kowsikaaa]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.tests.PostMethod.post(PostMethod.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- com.tests.PostMethod -->
+      <class name="com.tests.Invalidlogin">
+        <test-method signature="invalidlogin()[pri:0, instance:com.tests.Invalidlogin@38af9828]" started-at="2026-06-18T15:40:39 IST" name="invalidlogin" finished-at="2026-06-18T15:40:39 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+      </class> <!-- com.tests.Invalidlogin -->
       <class name="com.tests.HeadMethod">
-        <test-method signature="headMethod()[pri:0, instance:com.tests.HeadMethod@a1153bc]" started-at="2026-06-17T06:59:32 IST" name="headMethod" finished-at="2026-06-17T06:59:34 IST" duration-ms="2102" status="PASS">
+        <test-method signature="headMethod()[pri:0, instance:com.tests.HeadMethod@4149c063]" started-at="2026-06-18T15:40:39 IST" name="headMethod" finished-at="2026-06-18T15:40:39 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headMethod -->
       </class> <!-- com.tests.HeadMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.tests.PatchMethod">
+        <test-method signature="modifyMethod()[pri:0, instance:com.tests.PatchMethod@5852c06f]" started-at="2026-06-18T15:40:39 IST" name="modifyMethod" finished-at="2026-06-18T15:40:39 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyMethod -->
+      </class> <!-- com.tests.PatchMethod -->
+      <class name="com.tests.DeleteMethod">
+        <test-method signature="deletedata()[pri:0, instance:com.tests.DeleteMethod@76b07f29]" started-at="2026-06-18T15:40:39 IST" name="deletedata" finished-at="2026-06-18T15:40:39 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletedata -->
+      </class> <!-- com.tests.DeleteMethod -->
+      <class name="com.tests.UpdateMethod">
+        <test-method signature="updateMethod()[pri:0, instance:com.tests.UpdateMethod@4b86805d]" started-at="2026-06-18T15:40:38 IST" name="updateMethod" finished-at="2026-06-18T15:40:38 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMethod -->
+      </class> <!-- com.tests.UpdateMethod -->
+      <class name="com.tests.Logintest">
+        <test-method signature="logintest()[pri:0, instance:com.tests.Logintest@7fd7a283]" started-at="2026-06-18T15:40:35 IST" name="logintest" finished-at="2026-06-18T15:40:37 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.tests.Logintest -->
+      <class name="com.tests.InvalidGetMethod">
+        <test-method signature="invalidGetTrainee()[pri:0, instance:com.tests.InvalidGetMethod@376a0d86]" started-at="2026-06-18T15:40:39 IST" name="invalidGetTrainee" finished-at="2026-06-18T15:40:39 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidGetTrainee -->
+      </class> <!-- com.tests.InvalidGetMethod -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

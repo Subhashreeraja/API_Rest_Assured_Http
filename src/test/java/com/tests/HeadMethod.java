@@ -15,7 +15,7 @@ public class HeadMethod {
                 .given()
 
                 .when()
-                .head("http://localhost:3000/trainees/1");
+                .head("http://localhost:3000/trainees/6");
 
         System.out.println("Status Code: " + response.getStatusCode());
 
