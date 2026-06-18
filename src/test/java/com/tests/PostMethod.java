@@ -23,7 +23,7 @@ public class PostMethod {
 		System.out.println("Data Created:"+response.getStatusCode());
 		response.prettyPrint();
 		Assert.assertEquals(response.getStatusCode(),201);
-		Assert.assertEquals(response.jsonPath().getString("name"),"Kowsikaa");
+		Assert.assertEquals(response.jsonPath().getString("name"),"Kowsikaaa");
 		
 	}
 	
